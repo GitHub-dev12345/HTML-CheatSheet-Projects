@@ -57,15 +57,36 @@ nav{
     padding: 5px 14px !important;
 }
 
+/* Footer Design CSS  Code */
 footer{
     text-align: center;
-    font-size: 1.2rem;
-    font-weight: bold;
-    background-color: #272822;
     color: white;
+    background-color: black;
     padding: 20px;
+	word-spacing: 5px;
+	cursor: pointer;
 }
+
+footer a{
+	color:red;
+}
+
+footer a:hover{
+	text-decoration: none;
+	color: yellow;
+}
+
+
+    /* footer{
+        text-align: center;
+        font-size: 1.2rem;
+        font-weight: bold;
+        background-color: #272822;
+        color: white;
+        padding: 20px;
+    } */
 
 ol{
     list-style: none;   
 }
+
